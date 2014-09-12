@@ -28,20 +28,19 @@
   "dependencies": {
     "async": "0.1.22",
     "neo4j-js": "git+https://github.com/natgeo/neo4j-js.git",
+    "node-uuid": "^1.4.1",
     "q": "~0.9.7"
   },
   "devDependencies": {
     "mocha": "~1.15.1"
   },
-  "readme": "![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png) \n\n# BoilerplateAdapter\n\nThis template exists to make it easier for you to get started writing an official adapter for Sails.js.\n\n\n## Getting started\nIt's usually pretty easy to add your own adapters for integrating with proprietary systems or existing open APIs.  For most things, it's as easy as `require('some-module')` and mapping the appropriate methods to match waterline semantics.  To get started:\n\n1. Fork this repository\n2. Set up your README and package.json file.  Sails.js adapter module names are of the form sails-*, where * is the name of the datastore or service you're integrating with.\n3. Build your adapter.\n\n## How to test your adapter\n1. Run `npm link` in this adapter's directory\n2. Clone the sails.js core and modify the tests to use your new adapter.\n3. Run `npm link sails-boilerplate`\n4. From the sails.js core directory, run `npm test`.\n\n## Submitting your adapter\n1. Do a pull request to this repository (make sure you attribute yourself as the author set the license in the package.json to \"MIT\")  Please let us know about any special instructions for usage/testing.\n2. We'll run the tests one last time.  If there are any issues, we'll let you know.\n3. When it's ready, we'll update the documentation with information about your new adapter\n4. Then we'll tweet and post about it on our blog, adoring you with lavish praises.\n5. Mike will send you jelly beans.\n\n\n## About Sails.js and Waterline\nhttp://SailsJs.com\n\nWaterline is a new kind of storage and retrieval engine for Sails.js.  It provides a uniform API for accessing stuff from different kinds of databases, protocols, and 3rd party APIs.  That means you write the same code to get users, whether they live in mySQL, LDAP, MongoDB, or Facebook.\n",
+  "readme": "![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png) \r\n\r\n# BoilerplateAdapter\r\n\r\nThis template exists to make it easier for you to get started writing an official adapter for Sails.js.\r\n\r\n\r\n## Getting started\r\nIt's usually pretty easy to add your own adapters for integrating with proprietary systems or existing open APIs.  For most things, it's as easy as `require('some-module')` and mapping the appropriate methods to match waterline semantics.  To get started:\r\n\r\n1. Fork this repository\r\n2. Set up your README and package.json file.  Sails.js adapter module names are of the form sails-*, where * is the name of the datastore or service you're integrating with.\r\n3. Build your adapter.\r\n\r\n## How to test your adapter\r\n1. Run `npm link` in this adapter's directory\r\n2. Clone the sails.js core and modify the tests to use your new adapter.\r\n3. Run `npm link sails-boilerplate`\r\n4. From the sails.js core directory, run `npm test`.\r\n\r\n## Submitting your adapter\r\n1. Do a pull request to this repository (make sure you attribute yourself as the author set the license in the package.json to \"MIT\")  Please let us know about any special instructions for usage/testing.\r\n2. We'll run the tests one last time.  If there are any issues, we'll let you know.\r\n3. When it's ready, we'll update the documentation with information about your new adapter\r\n4. Then we'll tweet and post about it on our blog, adoring you with lavish praises.\r\n5. Mike will send you jelly beans.\r\n\r\n\r\n## About Sails.js and Waterline\r\nhttp://SailsJs.com\r\n\r\nWaterline is a new kind of storage and retrieval engine for Sails.js.  It provides a uniform API for accessing stuff from different kinds of databases, protocols, and 3rd party APIs.  That means you write the same code to get users, whether they live in mySQL, LDAP, MongoDB, or Facebook.\r\n",
   "bugs": {
     "url": "https://github.com/natgeo/sails-neo4j/issues"
   },
   "homepage": "https://github.com/natgeo/sails-neo4j",
   "_id": "sails-neo4j@0.1.1",
-  "dist": {
-    "shasum": "18d1e794269a90d31a3c02eb88ab85defde08119"
-  },
-  "_resolved": "git+https://github.com/wrousseau/sails-neo4j.git#43368926cb08f834cf7deed89304066c6f4a130a",
-  "_from": "git+https://github.com/wrousseau/sails-neo4j.git"
+  "_shasum": "5314a8e15484fd4eca14b37af9799025abd6ae7f",
+  "_resolved": "git+https://github.com/wrousseau/sails-neo4j#b968b370a97a137f46916cd515c9ea6dafbabf34",
+  "_from": "git+https://github.com/wrousseau/sails-neo4j"
 }
